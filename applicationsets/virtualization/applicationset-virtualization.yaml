@@ -16,8 +16,8 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/0xFelix/gitops-demo.git
-        targetRevision: main
+        repoURL: https://github.com/Asifkhan-dev/gitops-demo.git
+        targetRevision: HEAD
         path: applicationsets/virtualization/manifests
       destination:
         server: "{{server}}"
